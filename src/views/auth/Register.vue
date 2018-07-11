@@ -20,7 +20,7 @@
           </div>
           <div class="form-group">
             <label class="control-label">确认密码</label>
-            <input v-model.trim="cpassword" v-validator.required="{ target: '#password' }" type="password" class="form-control" placeholder="请填写确认密码">
+            <input v-model.trim="cpassword" v-validator.required="{ title: '确认密码',target: '#password' }" type="password" class="form-control" placeholder="请填写确认密码">
           </div>
           <div class="form-group">
             <label class="control-label">图片验证码</label>
